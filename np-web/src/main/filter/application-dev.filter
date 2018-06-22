@@ -1,0 +1,14 @@
+server.port=8091
+
+swagger.ui.enable=true
+
+
+
+page.base.url=http://localhost:8091
+
+## db
+db.minPoolSize=1
+db.maxPoolSize=5
+db.notifyplatform.username=test
+db.notifyplatform.password=123456
+db.notifyplatform.url4notifyplatform=jdbc:mysql://18.218.19.56:3306/notify_platform

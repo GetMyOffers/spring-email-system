@@ -1,0 +1,27 @@
+server.port=8091
+
+swagger.ui.enable=false
+
+db.minPoolSize=1
+db.maxPoolSize=5
+
+## db
+db.wallet.username=explorer
+db.wallet.password=123456
+db.wallet.url4wallet=jdbc:mysql://127.0.0.1:3306/wallet?useUnicode=true&characterEncoding=UTF8
+db.wallet.url4explorer=jdbc:mysql://127.0.0.1:3306/wallet?useUnicode=true&characterEncoding=UTF8
+db.wallet.url4uc=jdbc:mysql://127.0.0.1:3306/user_center?useUnicode=true&characterEncoding=UTF8
+
+## 主网host
+neb.host=13.57.96.40
+
+eth.blockchain.url=http://52.53.245.211
+eth.blockchain.id=1
+
+coin.url.eth.path=/eth
+
+#浏览器URL
+neb.explorer.url = https://explorer.nebulas.io/#/tx/
+eth.explorer.url = https://etherscan.io/tx/
+
+page.base.url=http://18.221.150.42:8091
