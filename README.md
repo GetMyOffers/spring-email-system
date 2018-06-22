@@ -9,22 +9,22 @@
     建表语句。
     ```
 
-- uc-service: 
+- np-service: 
     ```
     src/main
-        io.nebulas.usercenter: 
+        io.nebulas.notifyplatform: 
             domain : 基于MybatisPlus生成的代码。
             common : JsonResult，utils工具类 etc...
     src/test
-        io.nebulas.usercenter:
+        io.nebulas.notifyplatform:
             Generator: MP代码生成类
     ```
 
 
 
-- uc-web: 
+- np-web: 
     ```
-    io.nebulas.usercenter:
+    io.nebulas.notifyplatform:
         config: Configuration相关
         controller: api层
     ```
